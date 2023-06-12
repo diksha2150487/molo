@@ -829,7 +829,7 @@ h2 + .row {
 }
 
 .bg-primary {
-  background-color: #f9b32c;
+  background-color: #002b80;
 }
 
 .bg-primary + .bg-primary {
@@ -1352,6 +1352,8 @@ h3,
 h3 .head-big,
 .heading-3 .head-big {
   font-weight: 600;
+ 
+
 }
 
 @media (min-width: 992px) {
@@ -1746,11 +1748,11 @@ h4 + .link-inline {
 * Block insets
 */
 .block-inset-right-40 {
-  padding-right: 40px;
+  padding-right: 90px;
 }
 
 .block-inset-left-40 {
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 @media (min-width: 992px) {
@@ -2627,6 +2629,7 @@ img {
   display: inline-block;
   max-width: 100%;
   height: auto;
+  border-radius: 7px;
 }
 
 .img-responsive {
@@ -3268,7 +3271,7 @@ hr {
 
 .button-primary,
 .button-primary:focus {
-  color: #193367;
+  color: black;
   background-color: #f9b32c;
   /* border-color: white; */
   border: none;
@@ -3289,8 +3292,8 @@ hr {
 
 .bg-primary .button-primary,
 .bg-primary .button-primary:focus {
-  color:  #e68a00;
-  background-color:  #193367;
+  color:  black;
+  background-color: #f9b32c ;
   border: none;
 }
 
@@ -6316,7 +6319,7 @@ textarea.form-input {
 }
 
 .footer-classic a.icon:hover {
-  color: #f9b32c;
+  color: #002699;
 }
 
 .footer-classic a.icon:hover {
@@ -6339,7 +6342,8 @@ textarea.form-input {
 }
 
 .footer-classic-list a:hover {
-  color: #f9b32c;
+  color:
+  #3399ff;
 }
 
 .footer-classic-list a:after {
@@ -6372,7 +6376,7 @@ textarea.form-input {
 }
 
 .footer-classic-address a:hover {
-  color: #f9b32c;
+  color: #3399ff;
 }
 
 .footer-classic-title + * {
@@ -7204,13 +7208,14 @@ html.tablet .ui-to-top {
     0.2s ease-out opacity, 0.55s ease-out width;
 }
 
+
 .rd-navbar-static .rd-nav-link,
 .rd-navbar-static .rd-nav-link:not([href]) {
   color: #7c7a78;
 }
 
 .rd-navbar-static .rd-nav-link:hover {
-  color: #f9b32c;
+  color: #003399;
 }
 
 .rd-navbar-static .rd-nav-link:hover:after {
@@ -8677,10 +8682,10 @@ html.rd-navbar-fixed-linked .page {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+/* 
 .rd-navbar-classic.rd-navbar-static * + .rd-navbar-main-element {
   border-top: 1px solid #ebebeb;
-}
+} */
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-brand > a {
   display: inline-block;
@@ -14162,6 +14167,7 @@ html .dtp .invisible {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+padding-top: 12rem;
   z-index: 1;
 }
 .form {
